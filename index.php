@@ -124,6 +124,12 @@ setHeight(80);
 echo "<br>";
 $numbers = array(4, 6, 2, 22, 11);
 sort($numbers);
+
+echo "<br>";
+
+$myfile = fopen("try.php", "r");
+// some code to be executed....
+fclose($myfile);
 ?>
 
 
